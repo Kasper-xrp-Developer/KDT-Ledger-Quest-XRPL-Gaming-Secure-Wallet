@@ -125,3 +125,55 @@ Important: Ledger hardware signing requires a compatible Ledger device and signi
 KDT Ledger Quest — Complete Coding Package
 Python FastAPI + HTML + CSS + JavaScript + Tests 
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+KDT Ledger Quest — Full Source Code
+
+The project includes a FastAPI backend, an interactive gaming dashboard, an XRP Testnet wallet monitor, transaction preparation, and a signed-transaction submission interface.
+
+Important: Ledger hardware signing requires a compatible Ledger device and signing integration. The project will not store private keys or seed phrases, and the downloadable code will distinguish simulated gaming features from actual XRPL transactions.
+
+KDT Ledger Quest — Complete Coding Package
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+The package contains:
+- app/main.py — FastAPI blockchain backend
+- app/static/index.html — Interactive web dashboard
+- requirements.txt — Python dependencies
+- .env.example — XRPL Testnet configuration
+- run_windows.bat — Windows startup script
+- tests/test_app.py — Automated tests
+- README.md — Installation and operating instructions
+How to run on Windows
+Extract the ZIP, open the project folder, and double-click run_windows.bat.
+
+The script creates a Python virtual environment, installs dependencies, and starts the local server.
+
+Then open:
+
+http://127.0.0.1:8000
+
+The API documentation is available at http://127.0.0.1:8000/docs.
+Verification results
+Automated API tests
+6 passed
+
+ZIP integrity
+Verified
+
+XRPL live network connection
+Requires runtime test
+
+Physical Ledger signing
+External integration required
+
+
+The source package is created and its automated tests pass. Actual hardware signing and a validated XRPL transaction remain necessary before the project can demonstrate the Ledger Open Track's on-chain settlement requirement.
+
+
+
